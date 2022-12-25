@@ -56,9 +56,9 @@ void main(void) {
     unsigned char i = 0;
     while(i < 7) {
         GPIO = 0b00000000;
-        __delay_ms(30);
+        __delay_ms(50);
         GPIO = 0b00100000;
-        __delay_ms(120);
+        __delay_ms(150);
         i++;
     }
     TRISIO = 0b00111110;
